@@ -1,6 +1,12 @@
 <template>
-  <header class="header  text-stone-50 w-1/3 min-h-screen flex  justify-around"><NavBar /></header>
-  <main><RouterView></RouterView></main>
+  <div class="md:flex ">
+    <header class="header sticky text-stone-50 md:w-1/3 sm:w-screen px-4 min-h-screen flex  justify-around">
+      <NavBar />
+    </header>
+    <main class="main-background w-screen min-h-screen flex flex-col justify-center align-center">
+      <RouterView></RouterView>
+    </main>
+  </div>
 </template>
 
 <script>

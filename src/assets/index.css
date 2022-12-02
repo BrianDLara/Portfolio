@@ -1,9 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(//db.onlinewebfonts.com/c/c45b220729bbd31286f113128fc30c86?family=Kamerik205W00-Bold);
 
+::selection{
+  background: rgb(109, 69, 135);
+}
+
+h1{
+  font-family: "Kamerik205W00-Bold";
+}
+
+
+/* NavBar */
 .header{
-    background-color: #262F34;
+    background-color: #201f23;
 }
 
 .profile-pic-container{
@@ -13,4 +24,47 @@
   border-radius: 50%;
   overflow: hidden;
   
+}
+
+.header-text{
+
+}
+
+/* Main section */
+.main-background{
+  background-color: #1A191D;
+  color: #ffffff;
+}
+
+/* error image */
+.error-image{
+  width: 100%;
+  height: auto;
+}
+
+/* Typewriting effect */
+.typewriter h3 {
+  display: inline-block;
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .20em; /* Adjust as needed */
+  animation: 
+    typing 2s steps(11, end),
+    blink-caret .6s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 17% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
 }

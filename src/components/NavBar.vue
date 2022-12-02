@@ -12,7 +12,7 @@
 
       <!-- User Header Text -->
       <div>
-        <p class="header-text">I’m a full-stack developer, with an endless creative mind and a passion for building products from scratch.</p>
+        <p class="header-text leading-relaxed mx-10">I’m a full-stack developer, with an endless creative mind and a passion for building products from scratch.</p>
       </div>
       <!-- Nav Links -->
       <div class="flex flex-col"> 
