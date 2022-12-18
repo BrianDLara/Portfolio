@@ -29,22 +29,31 @@
       </div>
       <!-- Download Resume Button -->
       <div>
-        {{ log(attachmentFile.url) }}
-        <a :href="attachmentFile.url" :download="attachmentFile.name" class="inline-block text-lg px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">Download Resume</a>
+       
+        <a href="https://docs.google.com/document/d/12K0ch0tqu2HfHSUHRCTIhMvtsOtTrPcAOuJunptrpzc/edit?usp=sharing"  target="_blank" class="inline-block text-lg px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">View Resume</a>
       </div>
   </nav>
 </template>
 
+
 <script>
+
     export default {
       name: 'NavBar',
       data: () => ({
-        attachmentFile: { name: "resume.docx", url: "src/assets/resume.docx"}
+      
       }),
       methods : {
-        log(msg){
-          console.log(msg); 
-        }
+        // log(msg){
+        //   console.log(msg); 
+        // }
+      //   clickedDownload(){
+      //   const link = document.createElement('a');
+      // link.href = 'https://docs.google.com/document/d/e/2PACX-1vSxLTd-ZBYdrt4gxtyXPS8pTpYT_plcP3kuk8SRunH0M9ebcOd5p27O5-1U_MQkrv5V3Eb60gHgEhow/pub';
+      // link.setAttribute('download', 'resume.docx'); //or any other extension
+      // document.body.appendChild(link);
+      // link.click();
+    // }
       }
     }
 
