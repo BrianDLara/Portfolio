@@ -29,14 +29,23 @@
       </div>
       <!-- Download Resume Button -->
       <div>
-        <a href="#" class="inline-block text-lg px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">Download Resume</a>
+        {{ log(attachmentFile.url) }}
+        <a :href="attachmentFile.url" :download="attachmentFile.name" class="inline-block text-lg px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">Download Resume</a>
       </div>
   </nav>
 </template>
 
 <script>
     export default {
-      name: 'NavBar'
+      name: 'NavBar',
+      data: () => ({
+        attachmentFile: { name: "resume.docx", url: "src/assets/resume.docx"}
+      }),
+      methods : {
+        log(msg){
+          console.log(msg); 
+        }
+      }
     }
 
   </script>
