@@ -2,7 +2,10 @@
   <nav class=" flex flex-col justify-evenly items-center  text-center">
       <!-- Profile Image -->
       
-        <img src="https://i.imgur.com/57D61NA.png" alt="Profile Picture" class="nav-pic">
+        <img src="https://i.imgur.com/57D61NA.png" alt="Profile Logo" class="nav-logo">
+        <img src="https://i.imgur.com/KEH6CjU.png" alt="Profile Picture" class="nav-pic">
+       
+        
       
       <!-- User Title -->
       <!-- <div class="">
@@ -30,7 +33,7 @@
       </div>
       <!-- Download Resume Button -->
       <div> 
-        <a href="https://docs.google.com/document/d/12K0ch0tqu2HfHSUHRCTIhMvtsOtTrPcAOuJunptrpzc/edit?usp=sharing"  target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">View Resume</a>
+        <a href="/resume.pdf" download="BrianLara-resume" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">Download Resume</a>
       </div>
       
       <!-- social links -->

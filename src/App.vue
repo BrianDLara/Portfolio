@@ -1,7 +1,7 @@
 <template>
 
   <div class="md:flex max-w-full">
-    <header class=" md:sticky top-0 header text-stone-50 w-screen md:w-2/5 lg:w-1/3  h-screen flex justify-around">
+    <header class=" md:sticky top-0 header text-stone-50 w-screen md:w-2/5 lg:w-1/3 h-screen flex justify-around">
         <NavBar />
     </header>
     <main class="main-background w-screen flex flex-col justify-center align-center">

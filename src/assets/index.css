@@ -35,9 +35,18 @@ h1{
   -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMTkuNywtMjQuNEMyNi4xLC0xOC4xLDMyLjMsLTEyLjQsMzMuNSwtNS45QzM0LjcsMC43LDMwLjksOC4yLDI3LjIsMTYuN0MyMy41LDI1LjMsMTkuOCwzNC45LDEzLjIsMzguMUM2LjUsNDEuNCwtMy4xLDM4LjMsLTEyLjQsMzQuNkMtMjEuNiwzMSwtMzAuNCwyNi44LC0zMi44LDIwLjJDLTM1LjEsMTMuNSwtMzEsNC40LC0yOC43LC00LjRDLTI2LjMsLTEzLjIsLTI1LjcsLTIxLjYsLTIxLjMsLTI4LjJDLTE2LjgsLTM0LjksLTguNCwtMzkuOCwtMC45LC0zOC44QzYuNywtMzcuNywxMy4zLC0zMC43LDE5LjcsLTI0LjRaIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MCA1MCkiIHN0cm9rZS13aWR0aD0iMCIgc3R5bGU9InRyYW5zaXRpb246IGFsbCAwLjNzIGVhc2UgMHM7IiBzdHJva2U9InVybCgjc3ctZ3JhZGllbnQpIj48L3BhdGg+CiAgICAgICAgICAgICAgPC9zdmc+);
 }
 
+
 .nav-pic{
-  width: 40%;
+  width: 70%;
   height: auto;
+ 
+  
+}
+
+.nav-logo{
+  width: 60%;
+  height: auto;
+  display: none;
 }
 
 
@@ -50,13 +59,14 @@ h1{
 
 /* banner */
 .name-image{
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
 .profile-image{
-  width: 35%;
+  width: 60%;
   height: auto;
+  display: none;
 }
 
 /* 
@@ -111,10 +121,35 @@ h1{
   width: 150vh;
 }
 
-  .project-img{
-    width: 40rem;
-  
-  }
+.project-img{
+  width: 40rem;
+
+}
+
+/* nav */
+.nav-pic{
+  width: 40%;
+  height: auto;
+  display:none;
+}
+
+.nav-logo{
+  width: 60%;
+  height: auto;
+  display: block;
+}
+
+  /* banner */
+.name-image{
+  width: 50%;
+  height: auto;
+}
+
+.profile-image{
+  width: 35%;
+  height: auto;
+  display: block;
+}
 }
 
 
