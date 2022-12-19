@@ -1,19 +1,20 @@
 <template>
   <div class="flex flex-col items-center justify-center text-center"> 
-    <section class="py-8 lg:py-16 px-4">
-      <div> 
-        <h3 class="text-xl pb-4 hover:text-gray-400"><i class="ri-mail-fill text-xl"></i>&nbsp;&nbsp;Briandlara1@gmail.com</h3>
-        <a href="https://github.com/BrianDLara">
-          <h3 class="text-xl pb-4 hover:text-gray-400"><i class="ri-github-fill ri-lg"></i>&nbsp;&nbsp;Github</h3>
-        </a>
-        <a href="https://www.linkedin.com/in/brian-lara/">
-          <h3 class="text-xl pb-4 hover:text-gray-400"><i class="ri-linkedin-box-fill ri-lg"></i>&nbsp;&nbsp;LinkedIn</h3>
-        </a>
-      </div>
-    </section>
     <section>
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center">Contact Me</h2>
+        <h2 class="mb-4 text-6xl tracking-tight font-extrabold text-center">Contact Me</h2>
+        <section class="py-8 lg:py-16 px-4">
+          <div> 
+            <h3 class="text-xl pb-4 hover:text-gray-400"><i class="ri-mail-fill text-xl"></i>&nbsp;&nbsp;Briandlara1@gmail.com</h3>
+            <a href="https://github.com/BrianDLara">
+              <h3 class="text-xl pb-4 hover:text-gray-400"><i class="ri-github-fill ri-lg"></i>&nbsp;&nbsp;Github</h3>
+            </a>
+            <a href="https://www.linkedin.com/in/brian-lara/">
+              <h3 class="text-xl pb-4 hover:text-gray-400"><i class="ri-linkedin-box-fill ri-lg"></i>&nbsp;&nbsp;LinkedIn</h3>
+            </a>
+          </div>
+        </section>
+        <p class="mt-4 font-light text-center sm:text-xl">Otherwise</p>
         <p class="mb-8 lg:mb-16 font-light text-center sm:text-xl">Please fill out the form to send me a direct e-mail.</p>
         <form ref="form" @submit.prevent="sendEmail" class="space-y-8">
           <div>

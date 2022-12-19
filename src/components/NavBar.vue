@@ -1,39 +1,48 @@
 <template>
   <nav class=" flex flex-col justify-evenly items-center  text-center">
       <!-- Profile Image -->
-      <div class="profile-pic-container blob">
-        <img src="https://i.imgur.com/wqjfnKZ.jpg" alt="Profile Picture" class="profile-pic">
-      </div>
+      
+        <img src="https://i.imgur.com/57D61NA.png" alt="Profile Picture" class="nav-pic">
+      
       <!-- User Title -->
-      <div class="">
+      <!-- <div class="">
         <p class="font-black text-4xl my-1 py-1">Brian Lara</p>
         <p class="font-md text-2xl">Software Engineer</p>
-      </div>
+      </div> -->
 
       <!-- User Header Text -->
-      <div>
-        <p class="header-text leading-relaxed mx-10 text-xl">I’m a full-stack developer, with an endless creative mind and a passion for building products from scratch.</p>
-      </div>
+     
+       
+      
+      
       <!-- Nav Links -->
       <div class="flex flex-col"> 
         <div class="text-2xl flex justify-between gap-14">
           <div class="flex flex-col  mt-4">
             <router-link :to="{path: '/', hash: '#home'}" class="block text-teal-200 hover:text-white">Home</router-link>
-            <router-link :to="{path: '/', hash: '#projects'}" class="block  mt-4 text-teal-200 hover:text-white">Projects</router-link>
+            <router-link :to="{path: '/', hash: '#projects'}" class="block  mt-8 text-teal-200 hover:text-white">Projects</router-link>
           </div>
           <div class="flex flex-col  mt-4">
-            <router-link :to="{path: '/', hash: '#about'}" class="block text-teal-200 hover:text-white">About Me</router-link>
-            <router-link :to="{path: '/', hash: '#contact'}" class="block  mt-4 text-teal-200 hover:text-white">Contact Me</router-link>
+            <router-link :to="{path: '/', hash: '#experience'}" class="block text-teal-200 hover:text-white">My Experience</router-link>
+            <router-link :to="{path: '/', hash: '#contact'}" class="block  mt-8 text-teal-200 hover:text-white">Contact Me</router-link>
           </div>  
         </div>
       </div>
       <!-- Download Resume Button -->
-      <div>
-       
-        <a href="https://docs.google.com/document/d/12K0ch0tqu2HfHSUHRCTIhMvtsOtTrPcAOuJunptrpzc/edit?usp=sharing"  target="_blank" class="inline-block text-lg px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">View Resume</a>
+      <div> 
+        <a href="https://docs.google.com/document/d/12K0ch0tqu2HfHSUHRCTIhMvtsOtTrPcAOuJunptrpzc/edit?usp=sharing"  target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">View Resume</a>
       </div>
-  </nav>
-</template>
+      
+      <!-- social links -->
+      <div class="flex flex-col justify-center items-center">
+        <p class="text-2xl">Follow Me</p>
+        <div class="flex">
+          <a href="https://github.com/BrianDLara"><i class="ri-github-fill ri-3x github-icon mx-2"></i></a>           
+          <a href="https://www.linkedin.com/in/brian-lara/"><i class="ri-linkedin-box-fill ri-3x linkedin-icon mx-2"></i></a> 
+        </div>  
+      </div>
+    </nav>
+  </template>
 
 
 <script>
