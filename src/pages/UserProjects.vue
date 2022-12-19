@@ -5,10 +5,10 @@
       </h1>
       <div class="flex flex-col items-center justify-center text-center">
         <!-- Project 1 -->
-        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-4 py-4 xl:px-2 xl:px-8 xl:py-16">
+        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-4 py-10 xl:py-4 xl:px-2 xl:px-8 xl:py-16">
           <!-- image -->
           <div> 
-            <a href="https://magical-meals.herokuapp.com/"><img src="https://i.imgur.com/hhxkpaS.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-6"></a>
+            <a href="https://magical-meals.herokuapp.com/" target="_blank"><img src="https://i.imgur.com/hhxkpaS.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-6"></a>
             <p class="text-cyan-600 mb-6">*Page deployed on Heroku. Please be patient with loading time</p>
           </div>
           <!-- icons -->
@@ -31,15 +31,15 @@
               <img class="devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
             </div>
             <div class="my-8">
-              <a href="https://github.com/BrianDLara/Magical-Meals_Frontend"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
-              <a href="https://magical-meals.herokuapp.com/"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
+              <a href="https://github.com/BrianDLara/Magical-Meals_Frontend" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
+              <a href="https://magical-meals.herokuapp.com/" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
             </div>
           </div>
         </div>
         <!-- Project 2 -->
-        <div class="project-container flex justify-evenly items-center text-center flex-col  xl:flex-row-reverse px-4 py-4 lg:px-2 xl:px-8 lg:py-16">
+        <div class="project-container flex justify-evenly items-center text-center flex-col  xl:flex-row-reverse px-4 py-10 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
           <!-- image -->
-          <a href="https://halloween-tic-tac-toe.surge.sh/"><img src="https://i.imgur.com/nd4yeB9.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-12"></a>
+          <a href="https://halloween-tic-tac-toe.surge.sh/" target="_blank"><img src="https://i.imgur.com/nd4yeB9.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-12"></a>
           <div> 
             <p class="py-4 px-6 lg:px-2 xl:px-24 self-center">Halloween theme Tic-Tac-Toe game with logic that lets the computer play against you</p>
             <!-- icons -->
@@ -53,17 +53,17 @@
               <img class="devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
             </div>
             <div class="my-8">
-              <a href="https://github.com/BrianDLara/tic-tac-toe"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>            
-              <a href="https://halloween-tic-tac-toe.surge.sh/"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
+              <a href="https://github.com/BrianDLara/tic-tac-toe" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>            
+              <a href="https://halloween-tic-tac-toe.surge.sh/" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
 
             </div>
           </div>
           
         </div>
         <!-- Project 3 -->
-        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-4 py-4 lg:px-2 xl:px-8 lg:py-16">
+        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-4 py-10 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
           <div>
-            <a href="https://student-registry-app.herokuapp.com/"><img src="https://i.imgur.com/iclfkh5.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-12"></a>
+            <a href="https://student-registry-app.herokuapp.com/" target="_blank"><img src="https://i.imgur.com/iclfkh5.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-12"></a>
             <p class="text-cyan-600 mb-6">*Page deployed on Heroku. Please be patient with loading time</p>
           </div>
           
@@ -87,17 +87,17 @@
               <img class="devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
             </div>
             <div class="my-8">
-              <a href="https://github.com/BrianDLara/student-registry-frontend"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
-              <a href="https://student-registry-app.herokuapp.com/"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
+              <a href="https://github.com/BrianDLara/student-registry-frontend" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
+              <a href="https://student-registry-app.herokuapp.com/" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
             </div>
             
           </div>
           
         </div>
         <!-- Project 4 -->
-        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row-reverse px-4 py-4 lg:px-2 xl:px-8 lg:py-16">
+        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row-reverse px-4 py-10 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
           <div>
-            <a href="https://valormore.herokuapp.com/"><img src="https://i.imgur.com/tykIlaQ.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-12"></a>
+            <a href="https://valormore.herokuapp.com/" target="_blank"><img src="https://i.imgur.com/tykIlaQ.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-12"></a>
             <p class="text-cyan-600 mb-6">*Page deployed on Heroku. Please be patient with loading time</p>
           </div>
           
@@ -119,15 +119,15 @@
               <img class="white-logo devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
             </div>
             <div class="my-8">
-              <a href="https://github.com/BrianDLara/Valormore"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
-              <a href="https://valormore.herokuapp.com/"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
+              <a href="https://github.com/BrianDLara/Valormore" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
+              <a href="https://valormore.herokuapp.com/" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
             </div>
           </div>
           
         </div>
          <!-- Project 5 -->
-         <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-4 py-4 lg:px-2 xl:px-8 lg:py-16">
-          <a href="http://space-fighters.surge.sh/"><img src="https://i.imgur.com/cMuwxq6.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-12"></a>
+         <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-4 py-10 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
+          <a href="http://space-fighters.surge.sh/" target="_blank"><img src="https://i.imgur.com/cMuwxq6.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-12"></a>
           <div>
             <p class="py-4 px-6 lg:px-2 xl:px-24 self-center">Space invaders look-a-like game, with score counter and border detection.</p>
             <div class="flex justify-center my-4">
@@ -140,8 +140,8 @@
               <img class="devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
             </div>
             <div class="my-8">
-              <a href="https://github.com/BrianDLara/Space-Fighters"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
-              <a href="http://space-fighters.surge.sh/"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
+              <a href="https://github.com/BrianDLara/Space-Fighters" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
+              <a href="http://space-fighters.surge.sh/" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
             </div>
           </div>
           
