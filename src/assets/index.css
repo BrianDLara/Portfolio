@@ -69,14 +69,11 @@ h1{
   display: none;
 }
 
-/* 
-.banner-container{
-  min-width: "500px";
-  min-height: "460px";
-  border: transparent;
-  overflow:hidden;
-  object-fit: cover;
-} */
+.divider{
+  margin: 0 auto;
+  width: 70%;
+  display: none;
+}
 
 
 
@@ -149,6 +146,11 @@ h1{
   width: 35%;
   height: auto;
   display: block;
+}
+
+.divider{
+  margin: 0 auto;
+  width: 70%;
 }
 }
 

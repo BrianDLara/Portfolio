@@ -10,7 +10,20 @@
         <img src="https://i.imgur.com/ol6M0Im.jpg" alt="profile image" class="profile-image">
               
       </section>
+      <section>
+        <p class="xl:text-xl xl:px-8 mx-8 xl:mx-36 mt-16 xl:mt-24">You got to make the most out of the short time we all have. That being said, one of my greatest achievements in life was becoming a U.S Citizen. This has brought so may opportunities and it has allowed me to pursue my dreams and passions.</p>
+        <!-- <img src="https://i.imgur.com/3hhfbsg.png" alt="text divider" class="divider"> -->
         
+        <p class="xl:text-xl xl:px-8 mx-8 xl:mx-36 mt-8">My previous career as a Commercial Roofing Forman, allowed me to develop my problem-solving skills. This job did not only taught me how to work collaboratively with teams, but also how to lead them through high quality projects in deadline-driven environments.</p>
+        <!-- <img src="https://i.imgur.com/3hhfbsg.png" alt="text divider" class="divider"> -->
+
+        <p class="xl:text-xl xl:px-8 mx-8 xl:mx-36 mt-8">Outside of work I dedicate all my time to my family. I love baking with my daughter and I'm just waiting for her to be old enough so we can go rock climbing together.</p>
+        <!-- <img src="https://i.imgur.com/3hhfbsg.png" alt="text divider" class="divider"> -->
+
+        <p class="xl:text-xl xl:px-8 mx-8 xl:mx-36 mt-8"> I am excited to combine my technical and people skills to help companies and their engineering teams succeed.</p>
+        <img src="https://i.imgur.com/3hhfbsg.png" alt="text divider" class="divider">
+
+      </section>
       <section id="experience">
         <MyExperience />
       </section>
