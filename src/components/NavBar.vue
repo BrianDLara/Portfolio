@@ -36,6 +36,9 @@
         <a href="/resume.pdf" download="BrianLara-resume.pdf" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">Download Resume</a>
       </div>
       
+      <!-- animated text -->
+      
+
       <!-- social links -->
       <div class="flex flex-col justify-center items-center">
         <p class="text-2xl">Follow Me</p>

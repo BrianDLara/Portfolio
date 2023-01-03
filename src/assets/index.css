@@ -49,6 +49,31 @@ h1{
   display: none;
 }
 
+.swap-text:before{
+  content: '';
+  animation: animate infinite 40s;
+}
+
+@keyframes animate{
+  0%{
+    content: "Father"
+  }
+  20%{
+    content: "Hardworker"
+  }
+  40%{
+    content: "Thinker"
+  }
+  60%{
+    content: "Developer"
+  }
+  80%{
+    content: "Content Creator"
+  }
+  100%{
+    content: "Team Player"
+  }
+}
 
 
 /* Main section */
