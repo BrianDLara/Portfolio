@@ -33,7 +33,7 @@
       </div>
       <!-- Download Resume Button -->
       <div> 
-        <a href="/resume.pdf" download="Brian-Lara-resume" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">Download Resume</a>
+        <a href="https://docdro.id/ZJVwZW1" download="Brian-Lara-resume.pdf" target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">Get Resume</a>
       </div>
       
       <!-- animated text -->
