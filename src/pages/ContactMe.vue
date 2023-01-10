@@ -5,7 +5,7 @@
         <section class="py-8 lg:py-16 px-4 mx-10">
           <div> 
             <h3 class="text-2xl xl:text-4xl text-center pb-8 text-teal-200">Feel free to contact me at</h3>
-            <h3 class="text-xl xl:text-3xl pb-8 hover:text-gray-400"><i class="ri-mail-fill ri-lg"></i>&nbsp;&nbsp;Briandlara1@gmail.com</h3>
+            <h3 class="text-xl xl:text-3xl pb-8"><i class="ri-mail-fill ri-lg"></i>&nbsp;&nbsp;Briandlara1@gmail.com</h3>
             <a href="https://github.com/BrianDLara">
               <h3 class="text-xl xl:text-3xl pb-8 hover:text-gray-400"><i class="ri-github-fill ri-lg github-icon"></i>&nbsp;&nbsp;Github</h3>
             </a>
