@@ -33,7 +33,7 @@
       </div>
       <!-- Download Resume Button -->
       <div> 
-        <a href="https://docdro.id/ZJVwZW1" download="Brian-Lara-resume.pdf" target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white">Get Resume</a>
+        <a href="https://drive.google.com/file/d/1bqFrbVqEOCgsqIDkidxs-m7tQr5kg1A0/view?usp=sharing" target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white">Get Resume</a>
       </div>
       
       <!-- animated text -->
@@ -47,8 +47,6 @@
           <a href="https://www.linkedin.com/in/brian-lara/"><i class="ri-linkedin-box-fill ri-3x linkedin-icon mx-2"></i></a> 
         </div>  
       </div>
-
-      <h4>* Portfolio created with <a href="https://vuejs.org/"><span class="text-teal-200">Vue.js</span></a> & <a href="https://tailwindcss.com/"><span class="text-teal-200">Tailwind</span></a></h4>
     </nav>
   </template>
 

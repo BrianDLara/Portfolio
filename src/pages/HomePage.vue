@@ -33,6 +33,9 @@
       <section id="contact">
         <ContactMe />
       </section>
+      <footer>
+        <PageFooter />
+      </footer>
     </main>
   </template>
   
@@ -40,12 +43,14 @@
   import MyExperience from './MyExperience.vue'
   import UserProjects from './UserProjects.vue';
   import ContactMe from './ContactMe.vue';
+  import PageFooter from '../components/PageFooter.vue'
    export default{
       name: 'HomePage',
       components: {
         MyExperience,
         UserProjects,
-        ContactMe
+        ContactMe,
+        PageFooter
       },
       
     }

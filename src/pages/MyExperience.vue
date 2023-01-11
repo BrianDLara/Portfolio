@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <h1 class="text-center text-5xl my-2 mt-16 py-2 px-4 mb-8 xl:mb-24 pt-16">My Experience</h1>
-    <div class="flex flex-col lg:flex-row justify-center items-center mb-0 lg:mb-10 ">
+    <div class="flex flex-col 2xl:flex-row justify-center items-center mb-0 lg:mb-10 px-2">
       <!-- Frontend container -->
       <div class="flex flex-col border rounded mx-16 px-6 lg:px-10 py-16 mb-16 bg-neutral-900">
         <h1 class="text-center text-2xl mb-6">Frontend</h1>
