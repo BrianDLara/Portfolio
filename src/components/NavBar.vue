@@ -19,8 +19,8 @@
       
       
       <!-- Nav Links -->
-      <div class="flex flex-col"> 
-        <div class="text-2xl flex justify-between gap-14">
+      <div class="flex flex-col md:px-6 xl:px-4"> 
+        <div class="text-2xl flex justify-between items-center gap-14">
           <div class="flex flex-col  mt-4">
             <router-link :to="{path: '/', hash: '#home'}" class="block text-teal-200 hover:text-white">Home</router-link>
             <router-link :to="{path: '/', hash: '#projects'}" class="block  mt-8 text-teal-200 hover:text-white">Projects</router-link>
@@ -33,7 +33,7 @@
       </div>
       <!-- Download Resume Button -->
       <div> 
-        <a href="https://docdro.id/ZJVwZW1" download="Brian-Lara-resume.pdf" target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white  ">Get Resume</a>
+        <a href="https://docdro.id/ZJVwZW1" download="Brian-Lara-resume.pdf" target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white">Get Resume</a>
       </div>
       
       <!-- animated text -->

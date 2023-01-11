@@ -8,6 +8,10 @@
   background: rgb(109, 69, 135);
 }
 
+body{
+  background-color: #201f23;
+}
+
 h1{
   font-family: "Kamerik205W00-Bold";
 }
@@ -37,7 +41,7 @@ h1{
 
 
 .nav-pic{
-  width: 70%;
+  width: 50%;
   height: auto;
  
   
@@ -84,7 +88,7 @@ h1{
 
 /* banner */
 .name-image{
-  width: 90%;
+  width: 70%;
   height: auto;
 }
 

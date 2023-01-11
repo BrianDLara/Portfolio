@@ -31,8 +31,8 @@
               <img class="devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
             </div>
             <div class="my-8">
-              <a href="https://github.com/BrianDLara/Magical-Meals_Frontend" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
-              <a href="https://magical-meals.herokuapp.com/" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
+              <a href="https://github.com/BrianDLara/Magical-Meals_Frontend" target="_blank"><button class="px-4 py-2 mx-4 border rounded hover:border-transparent hover:text-teal-500 hover:bg-white">Github Repo</button></a>
+              <a href="https://magical-meals.herokuapp.com/" target="_blank"><button class="px-4 py-2 mx-4 border rounded hover:border-transparent hover:text-teal-500 hover:bg-white">Website</button></a>
             </div>
           </div>
         </div>
@@ -53,8 +53,8 @@
               <img class="devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
             </div>
             <div class="my-8">
-              <a href="https://github.com/BrianDLara/tic-tac-toe" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>            
-              <a href="https://halloween-tic-tac-toe.surge.sh/" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
+              <a href="https://github.com/BrianDLara/tic-tac-toe" target="_blank"><button class="px-4 py-2 mx-4 border rounded hover:border-transparent hover:text-teal-500 hover:bg-white">Github Repo</button></a>            
+              <a href="https://halloween-tic-tac-toe.surge.sh/" target="_blank"><button class="px-4 py-2 mx-4 border rounded hover:border-transparent hover:text-teal-500 hover:bg-white">Website</button></a>
 
             </div>
           </div>
@@ -87,8 +87,8 @@
               <img class="devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
             </div>
             <div class="my-8">
-              <a href="https://github.com/BrianDLara/student-registry-frontend" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
-              <a href="https://student-registry-app.herokuapp.com/" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
+              <a href="https://github.com/BrianDLara/student-registry-frontend" target="_blank"><button class="px-4 py-2 mx-4 border rounded hover:border-transparent hover:text-teal-500 hover:bg-white">Github Repo</button></a>
+              <a href="https://student-registry-app.herokuapp.com/" target="_blank"><button class="px-4 py-2 mx-4 border rounded hover:border-transparent hover:text-teal-500 hover:bg-white">Website</button></a>
             </div>
             
           </div>
@@ -119,8 +119,8 @@
               <img class="white-logo devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
             </div>
             <div class="my-8">
-              <a href="https://github.com/BrianDLara/Valormore" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
-              <a href="https://valormore.herokuapp.com/" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
+              <a href="https://github.com/BrianDLara/Valormore" target="_blank"><button class="px-4 py-2 mx-4 border rounded hover:border-transparent hover:text-teal-500 hover:bg-white">Github Repo</button></a>
+              <a href="https://valormore.herokuapp.com/" target="_blank"><button class="px-4 py-2 mx-4 border rounded hover:border-transparent hover:text-teal-500 hover:bg-white">Website</button></a>
             </div>
           </div>
           
@@ -140,8 +140,8 @@
               <img class="devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
             </div>
             <div class="my-8">
-              <a href="https://github.com/BrianDLara/Space-Fighters" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Github Repo</button></a>
-              <a href="http://space-fighters.surge.sh/" target="_blank"><button class="px-4 py-2 mx-4 hover:text-gray-400 border rounded hover:border-gray-400">Website</button></a>
+              <a href="https://github.com/BrianDLara/Space-Fighters" target="_blank"><button class="px-4 py-2 mx-4 border rounded hover:border-transparent hover:text-teal-500 hover:bg-white">Github Repo</button></a>
+              <a href="http://space-fighters.surge.sh/" target="_blank"><button class="px-4 py-2 mx-4 border rounded hover:border-transparent hover:text-teal-500 hover:bg-white">Website</button></a>
             </div>
           </div>
           
