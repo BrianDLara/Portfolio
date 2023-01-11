@@ -139,6 +139,7 @@ h1{
 }
 
 @media (min-width: 1280px) {
+
 .project-container{
   width: 150vh;
 }
@@ -149,6 +150,10 @@ h1{
 }
 
 /* nav */
+/* .minimum-height{
+  height: 104vh;
+} */
+
 .nav-pic{
   width: 40%;
   height: auto;

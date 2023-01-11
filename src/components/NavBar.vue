@@ -47,6 +47,8 @@
           <a href="https://www.linkedin.com/in/brian-lara/"><i class="ri-linkedin-box-fill ri-3x linkedin-icon mx-2"></i></a> 
         </div>  
       </div>
+
+      <h4>* Portfolio created with <a href="https://vuejs.org/"><span class="text-teal-200">Vue.js</span></a> & <a href="https://tailwindcss.com/"><span class="text-teal-200">Tailwind</span></a></h4>
     </nav>
   </template>
 

@@ -63,7 +63,7 @@
         <!-- Project 3 -->
         <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-4 py-10 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
           <div>
-            <a href="https://student-registry-app.herokuapp.com/" target="_blank"><img src="https://i.imgur.com/iclfkh5.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-12"></a>
+            <a href="https://main.dyzqsxxtteyld.amplifyapp.com/" target="_blank"><img src="https://i.imgur.com/iclfkh5.png" alt="" class="project-img py-4 px-10 lg:px-2 xl:px-12"></a>
             <p class="text-cyan-600 mb-6">*Page deployed on Heroku. Please be patient with loading time</p>
           </div>
           
