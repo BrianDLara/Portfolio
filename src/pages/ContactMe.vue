@@ -24,7 +24,7 @@
           <form ref="form" @submit.prevent="sendEmail" class="space-y-8 xl:text-3xl px-8 py-10 mx-4 border border-white rounded">
             <!-- Name -->
             <div>
-              <label class="text-secondary-color block mb-2 text-xl xl:text-3xl font-medium">Your Name</label>
+              <label class="text-secondary-color block mb-2 text-xl xl:text-3xl font-medium">Name</label>
               <input 
               type="text" 
               name="from_name" 
@@ -33,7 +33,7 @@
             </div>
             <!-- email -->
             <div>
-              <label class="text-secondary-color block mb-2 text-xl xl:text-3xl font-medium">Your email</label>
+              <label class="text-secondary-color block mb-2 text-xl xl:text-3xl font-medium">Email</label>
               <input 
               type="email" 
               name="email_id" 
@@ -42,7 +42,7 @@
             </div>
             <!-- message -->
             <div class="sm:col-span-2">
-              <label class="text-secondary-color block mb-2 text-xl xl:text-3xl font-medium">Your message</label>
+              <label class="text-secondary-color block mb-2 text-xl xl:text-3xl font-medium">Message</label>
               <textarea 
               name="message" 
               rows="6" 
