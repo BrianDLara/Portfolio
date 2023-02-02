@@ -13,7 +13,12 @@
           </div>
           <!-- icons -->
           <div>
-            <p class="py-4 px-6 lg:px-2 xl:px-24 self-center">Disney food inspired recipes, with the option to purchase recipe items and get them delivered to your home.</p>
+            <div>
+
+              <p class="max-w-3xl py-4 px-6 lg:px-2 xl:px-24 text-start"><span class="text-secondary-color">Description: </span>Experience the magic of Disney cooking in your own kitchen with Movie inspired recipes. Avoid the frustration of not having the right ingredients on hand. Simply purchase the required items directly from the website and have them delivered to you for a seamless and enjoyable cooking experience.</p>
+              <p class="max-w-3xl py-4 px-6 lg:px-2 xl:px-24 text-start"><span class="text-secondary-color">Problem: </span>Finding fun recipes to make online, but never following thought because you don't purchase them at the grocery store.</p>
+              <p class="max-w-3xl py-4 px-6 lg:px-2 xl:px-24 text-start"><span class="text-secondary-color">Solution: </span>The website lets you purchase the items directly and gets them to your house, so you can just focus on cooking.</p>
+            </div>
             <div class="flex justify-center my-4">
               <!-- React logo -->
               <img class="devicon-devicon-plain mx-2" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
@@ -43,6 +48,7 @@
           <!-- image -->
           <a href="https://halloween-tic-tac-toe.surge.sh/" target="_blank"><img src="https://i.imgur.com/nd4yeB9.png" alt="" class="project-img my-4 mx-auto lg:mx-2 xl:mx-6 border rounded"></a>
           <div> 
+            
             <p class="py-4 px-6 lg:px-2 xl:px-24 self-center">Halloween theme Tic-Tac-Toe game with logic that lets the computer play against you</p>
             <!-- icons -->
             <div class="flex justify-center my-4">
