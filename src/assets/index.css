@@ -5,8 +5,10 @@
 
 
 ::selection{
-  background: rgb(109, 69, 135);
+  background: #83B07F;
 }
+
+textarea { resize: none; }
 
 body{
   background-color: #201f23;
@@ -16,7 +18,13 @@ h1{
   font-family: "Kamerik205W00-Bold";
 }
 
+.section-title{
+  color: #7f9bb0
+}
 
+.text-secondary-color{
+  color: #B0947F;
+}
 
 /* NavBar */
 .header{
@@ -79,6 +87,35 @@ h1{
   }
 }
 
+.sticky-button{
+  color: #B0947F;
+}
+
+.sticky-button:hover{
+  color: #816c59;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffffff;
+  /* transform-origin: bottom top; */
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+}
 
 /* Main section */
 .main-background{
@@ -104,22 +141,43 @@ h1{
   display: none;
 }
 
+.custom__button{
+  background: linear-gradient(to left, #5d768b 50%, #201f22 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+}
+
+.custom__button:hover{
+  background-position: left;
+}
+
+.custom__button__project{
+  transition: 0.6s;
+}
+
+.custom__button__project:hover{
+  background-color: #7f9bb0;
+}
 
 
 .github-icon{
+  display:inline-block;
   color: #c9510c;
+  transition: 0.3s;
 }
 
 .github-icon:hover{
-  color: #c9510c99;
+  color: #ffffff;
 }
 
 .linkedin-icon{
+  display:inline-block;
   color: #0077B5;
+  transition: 0.3s;
 }
 
 .linkedin-icon:hover{
-  color: #0076b56a;
+  color: #ffffff;
 }
 
 
@@ -131,6 +189,19 @@ h1{
 /* if you want to change the original color */
 .devicon-devicon-plain path {
   fill: #4691f6;
+}
+
+.text__hover__github, .text__hover__linkedin{
+  transition: 0.6s;
+}
+
+.text__hover__github:hover{
+  color: #bc9077;
+}
+
+
+.text__hover__linkedin:hover{
+  color: #6293ad;
 }
 
 .white-logo{
@@ -186,6 +257,7 @@ h1{
   margin: 0 auto;
   width: 70%;
 }
+
 }
 
 

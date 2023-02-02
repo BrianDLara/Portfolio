@@ -8,7 +8,7 @@
       <RouterView></RouterView>
       <!-- Scroll up button -->
       <div ref="scrollTopButton" class="fixed flex justify-end bottom-0 right-0 pb-3 pr-5 transition">
-          <div class="text-gray-400 hover:text-blue-400 transition">
+          <div class="sticky-button">
               <button @click="scrollToTop" class="pt-2">
                 <i class="ri-arrow-up-circle-fill ri-lg pt-2"></i>
                 <p>Scroll to top</p>
