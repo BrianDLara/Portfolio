@@ -21,32 +21,32 @@
             <p class="text-secondary-color mb-8 lg:mb-16 text-center text-xl">Send me a direct e-mail.</p>
           </div>
           
-          <form ref="form" @submit.prevent="sendEmail" class="space-y-8 xl:text-3xl px-8 py-10 mx-4 border border-white rounded">
+          <form ref="form" @submit.prevent="sendEmail" class="space-y-8 text-xl px-12 py-10 mx-4 border border-white rounded">
             <!-- Name -->
             <div>
-              <label class="text-secondary-color block mb-2 text-xl xl:text-3xl font-medium">Name</label>
+              <label class="text-secondary-color block mb-2 text-xl  font-medium">Name</label>
               <input 
               type="text" 
               name="from_name" 
-              class="text-black block p-3 w-full text-xl xl:text-3xl bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" 
+              class="text-black block p-3 w-full text-xl bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" 
               required>
             </div>
             <!-- email -->
             <div>
-              <label class="text-secondary-color block mb-2 text-xl xl:text-3xl font-medium">Email</label>
+              <label class="text-secondary-color block mb-2 text-xl  font-medium">Email</label>
               <input 
               type="email" 
               name="email_id" 
-              class="text-black shadow-sm bg-gray-50 border border-gray-300 text-xl xl:text-3xl rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" 
+              class="text-black shadow-sm bg-gray-50 border border-gray-300 text-xl rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" 
               required>
             </div>
             <!-- message -->
             <div class="sm:col-span-2">
-              <label class="text-secondary-color block mb-2 text-xl xl:text-3xl font-medium">Message</label>
+              <label class="text-secondary-color block mb-2 text-xl font-medium">Message</label>
               <textarea 
               name="message" 
               rows="6" 
-              class="text-black block p-2.5 w-full text-xl xl:text-3xl text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" 
+              class="text-black block p-2.5 w-full text-xl text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" 
               
               >
               </textarea>

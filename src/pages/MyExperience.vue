@@ -7,7 +7,7 @@
     <div class="flex flex-col 2xl:flex-row justify-center items-center mb-0 lg:mb-10 px-2">
     <!-- languages container-->
     <div class="flex flex-col border rounded mx-16 lg:px-10 py-16 mb-16 bg-neutral-900">
-      <h1 class="text-center text-2xl mb-6">Languages:</h1>
+      <h1 class="text-center text-2xl mb-6">Languages</h1>
         <!-- Languages column 1 -->
         <div class="flex justify-between px-6 lg:px-10 text-sm lg:text-2xl">
           <div class="flex items-center py-6 px-10 lg:px-4">

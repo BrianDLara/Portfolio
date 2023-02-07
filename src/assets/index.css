@@ -26,6 +26,16 @@ h1{
   color: #B0947F;
 }
 
+.hoverZoom {
+  transform: scale(1);
+  transition: 6s ease-out;
+}
+
+.hoverZoom:hover{
+  
+  transform: scale(1.05);
+}
+
 /* NavBar */
 .header{
   background-color: #201f23;
@@ -41,13 +51,6 @@ h1{
   
 }
 
-
-
-.blob{
-  -webkit-mask-image: url(data:image/svg+xml;base64,PCEtLT94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/LS0+CiAgICAgICAgICAgICAgPHN2ZyBpZD0ic3ctanMtYmxvYi1zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSI+CiAgICAgICAgICAgICAgICAgICAgPGRlZnM+IAogICAgICAgICAgICAgICAgICAgICAgICA8bGluZWFyR3JhZGllbnQgaWQ9InN3LWdyYWRpZW50IiB4MT0iMCIgeDI9IjEiIHkxPSIxIiB5Mj0iMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RvcCBpZD0ic3RvcDEiIHN0b3AtY29sb3I9InJnYmEoMjQ4LCAxMTcsIDU1LCAxKSIgb2Zmc2V0PSIwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0b3AgaWQ9InN0b3AyIiBzdG9wLWNvbG9yPSJyZ2JhKDI1MSwgMTY4LCAzMSwgMSkiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpbmVhckdyYWRpZW50PgogICAgICAgICAgICAgICAgICAgIDwvZGVmcz4KICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9InVybCgjc3ctZ3JhZGllbnQpIiBkPSJNMTkuNywtMjQuNEMyNi4xLC0xOC4xLDMyLjMsLTEyLjQsMzMuNSwtNS45QzM0LjcsMC43LDMwLjksOC4yLDI3LjIsMTYuN0MyMy41LDI1LjMsMTkuOCwzNC45LDEzLjIsMzguMUM2LjUsNDEuNCwtMy4xLDM4LjMsLTEyLjQsMzQuNkMtMjEuNiwzMSwtMzAuNCwyNi44LC0zMi44LDIwLjJDLTM1LjEsMTMuNSwtMzEsNC40LC0yOC43LC00LjRDLTI2LjMsLTEzLjIsLTI1LjcsLTIxLjYsLTIxLjMsLTI4LjJDLTE2LjgsLTM0LjksLTguNCwtMzkuOCwtMC45LC0zOC44QzYuNywtMzcuNywxMy4zLC0zMC43LDE5LjcsLTI0LjRaIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1MCA1MCkiIHN0cm9rZS13aWR0aD0iMCIgc3R5bGU9InRyYW5zaXRpb246IGFsbCAwLjNzIGVhc2UgMHM7IiBzdHJva2U9InVybCgjc3ctZ3JhZGllbnQpIj48L3BhdGg+CiAgICAgICAgICAgICAgPC9zdmc+);
-}
-
-
 .nav-pic{
   width: 50%;
   height: auto;
@@ -61,32 +64,7 @@ h1{
   display: none;
 }
 
-.swap-text:before{
-  content: '';
-  animation: animate infinite 40s;
-}
-
-@keyframes animate{
-  0%{
-    content: "Father"
-  }
-  20%{
-    content: "Hardworker"
-  }
-  40%{
-    content: "Thinker"
-  }
-  60%{
-    content: "Developer"
-  }
-  80%{
-    content: "Content Creator"
-  }
-  100%{
-    content: "Team Player"
-  }
-}
-
+/* sticky button bottom-right */
 .sticky-button{
   color: #B0947F;
 }
@@ -95,6 +73,7 @@ h1{
   color: #816c59;
 }
 
+/* nav links hover effect */
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -109,7 +88,6 @@ h1{
   bottom: -5px;
   left: 0;
   background-color: #ffffff;
-  /* transform-origin: bottom top; */
   transition: transform 0.25s ease-out;
 }
 
@@ -186,7 +164,6 @@ h1{
   height: 30px;
 }
 
-/* if you want to change the original color */
 .devicon-devicon-plain path {
   fill: #4691f6;
 }
@@ -213,6 +190,8 @@ h1{
 
 }
 
+
+
 @media (min-width: 1280px) {
 
 .project-container{
@@ -223,11 +202,6 @@ h1{
   width: 40rem;
 
 }
-
-/* nav */
-/* .minimum-height{
-  height: 104vh;
-} */
 
 .nav-pic{
   width: 40%;

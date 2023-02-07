@@ -5,7 +5,7 @@
       </h1>
       <div class="flex flex-col items-center justify-center text-center">
         <!-- Project 1 -->
-        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-4 py-10 xl:py-4 xl:mb-20 xl:mt-10 xl:px-2 xl:px-8 xl:pb-16">
+        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-10 py-10 xl:py-4 xl:mb-20 xl:mt-10 xl:px-2 xl:px-8 xl:pb-16">
           <!-- image -->
           <div> 
             <a href="https://magical-meals.herokuapp.com/" target="_blank"><img src="https://i.imgur.com/hhxkpaS.png" alt="" class="project-img my-4 mx-auto lg:mx-2 xl:mx-6 border rounded"></a>
@@ -43,7 +43,7 @@
         <img src="https://i.imgur.com/3hhfbsg.png" alt="project divider" class="project-divider xl:hidden py-10" width="300px">
 
         <!-- Project 2 -->
-        <div class="project-container flex justify-evenly items-center text-center flex-col  xl:flex-row-reverse px-4 py-10 xl:mb-20 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
+        <div class="project-container flex justify-evenly items-center text-center flex-col  xl:flex-row-reverse px-10 py-10 xl:mb-20 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
           <!-- image -->
           <a href="https://halloween-tic-tac-toe.surge.sh/" target="_blank"><img src="https://i.imgur.com/nd4yeB9.png" alt="" class="project-img my-4 mx-auto lg:mx-2 xl:mx-6 border rounded"></a>
           <div> 
@@ -75,7 +75,7 @@
         <img src="https://i.imgur.com/3hhfbsg.png" alt="project divider" class="project-divider xl:hidden py-10" width="300px">
 
         <!-- Project 3 -->
-        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-4 py-10 xl:mb-20 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
+        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-10 py-10 xl:mb-20 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
           <div>
             <a href="https://main.dyzqsxxtteyld.amplifyapp.com/" target="_blank"><img src="https://i.imgur.com/iclfkh5.png" alt="" class="project-img my-4 mx-auto lg:mx-2 xl:mx-6 border rounded"></a>
             <p class="text-cyan-600 mb-6">*Page deployed on Heroku. Please be patient with loading time</p>
@@ -117,7 +117,7 @@
 
 
         <!-- Project 4 -->
-        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row-reverse px-4 py-10 xl:mb-20 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
+        <div class="project-container flex justify-evenly items-center flex-col xl:flex-row-reverse px-10 py-10 xl:mb-20 xl:py-4 lg:px-2 xl:px-8 lg:py-16">
           <div>
             <a href="https://valormore.herokuapp.com/" target="_blank"><img src="https://i.imgur.com/tykIlaQ.png" alt="" class="project-img my-4 mx-auto lg:mx-2 xl:mx-6 border rounded"></a>
             <p class="text-cyan-600 mb-6">*Page deployed on Heroku. Please be patient with loading time</p>
@@ -156,7 +156,7 @@
 
 
          <!-- Project 5 -->
-         <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-4 py-10  xl:py-4 lg:px-2 xl:px-8 lg:py-16">
+         <div class="project-container flex justify-evenly items-center flex-col xl:flex-row px-10 py-10  xl:py-4 lg:px-2 xl:px-8 lg:py-16">
           <a href="http://space-fighters.surge.sh/" target="_blank"><img src="https://i.imgur.com/cMuwxq6.png" alt="" class="project-img my-4 mx-auto lg:mx-2 xl:mx-6 border rounded"></a>
           <div>
             <div>
