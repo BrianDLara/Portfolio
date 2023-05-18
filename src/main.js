@@ -6,4 +6,18 @@ import 'devicon'
 import App from './App.vue'
 import router from './router'
 
-createApp(App).use(router).mount('#app')
+// Import and use Vue Gtag
+import VueGtag from 'vue-gtag'
+
+const app = createApp(App)
+
+app.use(
+  VueGtag,
+  {
+    // Config options
+    config: { id: 'G-LWRB4YYVPN' } // Replace with your Google Analytics Tracking ID
+  },
+  router
+)
+
+app.use(router).mount('#app')
