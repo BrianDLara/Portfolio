@@ -38,6 +38,10 @@
             <img class="devicon-devicon-plain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" />
             <p class="pl-3">C</p>
           </div>
+          <div class="flex  items-center py-6 px-10 lg:px-4">
+            <img class="devicon-devicon-plain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+            <p class="pl-3">Typescript</p>
+          </div>
         </div>
     </div>
   </div>
