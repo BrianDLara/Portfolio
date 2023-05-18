@@ -33,7 +33,7 @@
       </div>
       <!-- Download Resume Button -->
       <div> 
-        <a href="https://drive.google.com/file/d/1EYg6IogVkUDQ6UtiJrHRbMwHhQ2i0tMj/view?usp=sharing" target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white custom__button">View Resume</a>
+        <a href="https://drive.google.com/file/d/1Z_sLd2Awzrp63awcLhnXguqNoOsHJ9mk/view?usp=sharing" target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white custom__button">View Resume</a>
       </div>
       
       <!-- animated text -->
@@ -45,6 +45,7 @@
         <div class="">
           <a href="https://github.com/BrianDLara" target="_blank"><i class="ri-github-fill ri-3x github-icon mx-2 hover:-translate-y-1"></i></a>           
           <a href="https://www.linkedin.com/in/brian-lara/" target="_blank"><i class="ri-linkedin-box-fill ri-3x linkedin-icon mx-2 hover:-translate-y-1"></i></a> 
+          <a href="https://www.youtube.com/@everythingreact9319" target="_blank"><i class="ri-youtube-fill ri-3x youtube-icon mx-2 hover:-translate-y-1"></i></a> 
         </div>  
       </div>
     </nav>

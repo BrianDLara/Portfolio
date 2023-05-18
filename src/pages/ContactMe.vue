@@ -52,7 +52,7 @@
               </textarea>
             </div>
             <div class="flex justify-center">
-              <button value="Send" type="submit" class="text-lg px-8 py-4 leading-none border rounded text-white border-white custom__button">Send message</button>
+              <button value="Send" type="submit" class="text-lg px-8 py-4 leading-none border rounded text-white border-white custom__button">Send E-mail</button>
             </div>
           </form>
         </section>

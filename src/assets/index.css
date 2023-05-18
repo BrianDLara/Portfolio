@@ -144,19 +144,23 @@ h1{
   transition: 0.3s;
 }
 
-.github-icon:hover{
-  color: #ffffff;
-}
-
 .linkedin-icon{
   display:inline-block;
   color: #0077B5;
   transition: 0.3s;
 }
 
-.linkedin-icon:hover{
+.youtube-icon{
+  display:inline-block;
+  color: #b2071d;
+  transition: 0.3s;
+}
+
+
+.github-icon:hover, .linkedin-icon:hover, .youtube-icon:hover{
   color: #ffffff;
 }
+
 
 
 .devicon-devicon-plain {
