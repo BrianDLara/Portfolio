@@ -106,7 +106,7 @@
             </div>
             <div class="my-8">
               <a href="https://github.com/BrianDLara/student-registry-frontend" target="_blank"><button class="inline-block text-lg px-6 py-4 mx-4 leading-none border rounded text-white border-white custom__button__project">Github Repo</button></a>
-              <a href="https://student-registry-app.herokuapp.com/" target="_blank"><button class="inline-block text-lg px-6 py-4 mx-4 leading-none border rounded text-white border-white custom__button__project">Website</button></a>
+              <a href="https://main.dyzqsxxtteyld.amplifyapp.com/" target="_blank"><button class="inline-block text-lg px-6 py-4 mx-4 leading-none border rounded text-white border-white custom__button__project">Website</button></a>
             </div>
             
           </div>
