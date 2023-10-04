@@ -26,6 +26,8 @@ h1{
   color: #B0947F;
 }
 
+
+
 .hoverZoom {
   transform: scale(1);
   transition: 6s ease-out;
@@ -118,6 +120,53 @@ h1{
   width: 70%;
   display: none;
 }
+
+.intro-image-container{
+  height: 100px;
+  width: 500px;
+  margin: 100px auto;
+  position: relative;
+}
+
+.intro-image{
+  height: 200px;
+  position: absolute;
+  left: 0;
+  offset-path: path('m 0 50 q 50-30 100-30 t 100 30 100 0 100-30 100 30');
+  box-shadow: 1px 1px 3px #0008;
+  transition: transform .4s ease-out, offset-path .4s cubic-bezier(.77,-1.17,.75,.84),box-shadow .3s, z-index .3s;
+  z-index: 999;
+}
+
+.intro-image:hover {
+  transform: scale(3);
+  /* on hover, the path gets a bit shorter & flattened & shifted to left/bottom a bit for nicer movement */
+  offset-path: path('m 5 65 q 45-0 90-0 t 90 0 90 0 90-0 90 0');
+  box-shadow: 3px 4px 10px #0006;
+  z-index: 9999;
+  cursor:pointer;
+}
+
+.intro-image-3{
+  height: 200px;
+  position: absolute;
+  left: 60%;
+  offset-path: path('m 0 50 q 50-10 100-30 t 100 30 100 0 100-30 100 30');
+  offset-distance: 35%;
+  box-shadow: 1px 1px 3px #0008;
+  transition: transform .4s ease-out, offset-path .4s cubic-bezier(.77,-1.17,.75,.84),box-shadow .3s, z-index .3s;
+  z-index: 999;
+}
+
+.intro-image-3:hover {
+  transform: scale(3);
+  /* on hover, the path gets a bit shorter & flattened & shifted to left/bottom a bit for nicer movement */
+  offset-path: path('m 5 65 q 45-0 90-0 t 90 0 90 0 90-0 90 0');
+  box-shadow: 3px 4px 10px #0006;
+  z-index: 9999;
+  cursor:pointer;
+}
+
 
 .custom__button{
   background: linear-gradient(to left, #5d768b 50%, #201f22 50%) right;
@@ -236,6 +285,30 @@ h1{
   width: 70%;
 }
 
+}
+
+@media (max-width: 1280px) {
+  .intro-image-container{
+    height: 100px;
+    width: 200px;
+    margin: 120px auto;
+  }
+ .intro-image{
+    left: 47%;
+  }
+
+  .intro-image:hover {
+    transform: scale(1.5);
+  }
+
+  .intro-image-3{
+    left: -20%;
+    offset-distance: 30%;
+  }
+
+  .intro-image-3:hover {
+    transform: scale(1.5);
+  }
 }
 
 
