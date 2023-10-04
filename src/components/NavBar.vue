@@ -33,7 +33,7 @@
       </div>
       <!-- Download Resume Button -->
       <div> 
-        <a href="https://drive.google.com/file/d/1Z_sLd2Awzrp63awcLhnXguqNoOsHJ9mk/view?usp=sharing" target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white custom__button">View Resume</a>
+        <a href="https://drive.google.com/file/d/1xvUxuapEbLcxJOkMmQ4lSyu8Ws6z-Fpx/view?usp=sharing" target="_blank" class="inline-block text-lg px-8 py-4 leading-none border rounded text-white border-white custom__button">View Resume</a>
       </div>
       
       <!-- animated text -->
